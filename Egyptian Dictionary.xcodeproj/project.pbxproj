@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B9FFDC341F449CA50009B6D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FFDC331F449CA50009B6D1 /* AppDelegate.swift */; };
+		B9FFDC361F449CA50009B6D1 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FFDC351F449CA50009B6D1 /* RootViewController.swift */; };
+		B9FFDC381F449CA50009B6D1 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FFDC371F449CA50009B6D1 /* DataViewController.swift */; };
+		B9FFDC3A1F449CA50009B6D1 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FFDC391F449CA50009B6D1 /* ModelController.swift */; };
+		B9FFDC3D1F449CA50009B6D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9FFDC3B1F449CA50009B6D1 /* Main.storyboard */; };
+		B9FFDC3F1F449CA50009B6D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9FFDC3E1F449CA50009B6D1 /* Assets.xcassets */; };
+		B9FFDC421F449CA50009B6D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9FFDC401F449CA50009B6D1 /* LaunchScreen.storyboard */; };
+		B9FFDC4D1F449CA50009B6D1 /* Egyptian_DictionaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FFDC4C1F449CA50009B6D1 /* Egyptian_DictionaryTests.swift */; };
+		B9FFDC581F449CA50009B6D1 /* Egyptian_DictionaryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FFDC571F449CA50009B6D1 /* Egyptian_DictionaryUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B9FFDC491F449CA50009B6D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9FFDC281F449CA50009B6D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9FFDC2F1F449CA50009B6D1;
+			remoteInfo = "Egyptian Dictionary";
+		};
+		B9FFDC541F449CA50009B6D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9FFDC281F449CA50009B6D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9FFDC2F1F449CA50009B6D1;
+			remoteInfo = "Egyptian Dictionary";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B9FFDC301F449CA50009B6D1 /* Egyptian Dictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Egyptian Dictionary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9FFDC331F449CA50009B6D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B9FFDC351F449CA50009B6D1 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		B9FFDC371F449CA50009B6D1 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		B9FFDC391F449CA50009B6D1 /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		B9FFDC3C1F449CA50009B6D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B9FFDC3E1F449CA50009B6D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B9FFDC411F449CA50009B6D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B9FFDC431F449CA50009B6D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9FFDC481F449CA50009B6D1 /* Egyptian DictionaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Egyptian DictionaryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9FFDC4C1F449CA50009B6D1 /* Egyptian_DictionaryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Egyptian_DictionaryTests.swift; sourceTree = "<group>"; };
+		B9FFDC4E1F449CA50009B6D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9FFDC531F449CA50009B6D1 /* Egyptian DictionaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Egyptian DictionaryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9FFDC571F449CA50009B6D1 /* Egyptian_DictionaryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Egyptian_DictionaryUITests.swift; sourceTree = "<group>"; };
+		B9FFDC591F449CA50009B6D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9FFDC2D1F449CA50009B6D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9FFDC451F449CA50009B6D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9FFDC501F449CA50009B6D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B9FFDC271F449CA40009B6D1 = {
+			isa = PBXGroup;
+			children = (
+				B9FFDC321F449CA50009B6D1 /* Egyptian Dictionary */,
+				B9FFDC4B1F449CA50009B6D1 /* Egyptian DictionaryTests */,
+				B9FFDC561F449CA50009B6D1 /* Egyptian DictionaryUITests */,
+				B9FFDC311F449CA50009B6D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B9FFDC311F449CA50009B6D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9FFDC301F449CA50009B6D1 /* Egyptian Dictionary.app */,
+				B9FFDC481F449CA50009B6D1 /* Egyptian DictionaryTests.xctest */,
+				B9FFDC531F449CA50009B6D1 /* Egyptian DictionaryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9FFDC321F449CA50009B6D1 /* Egyptian Dictionary */ = {
+			isa = PBXGroup;
+			children = (
+				B9FFDC331F449CA50009B6D1 /* AppDelegate.swift */,
+				B9FFDC351F449CA50009B6D1 /* RootViewController.swift */,
+				B9FFDC371F449CA50009B6D1 /* DataViewController.swift */,
+				B9FFDC391F449CA50009B6D1 /* ModelController.swift */,
+				B9FFDC3B1F449CA50009B6D1 /* Main.storyboard */,
+				B9FFDC3E1F449CA50009B6D1 /* Assets.xcassets */,
+				B9FFDC401F449CA50009B6D1 /* LaunchScreen.storyboard */,
+				B9FFDC431F449CA50009B6D1 /* Info.plist */,
+			);
+			path = "Egyptian Dictionary";
+			sourceTree = "<group>";
+		};
+		B9FFDC4B1F449CA50009B6D1 /* Egyptian DictionaryTests */ = {
+			isa = PBXGroup;
+			children = (
+				B9FFDC4C1F449CA50009B6D1 /* Egyptian_DictionaryTests.swift */,
+				B9FFDC4E1F449CA50009B6D1 /* Info.plist */,
+			);
+			path = "Egyptian DictionaryTests";
+			sourceTree = "<group>";
+		};
+		B9FFDC561F449CA50009B6D1 /* Egyptian DictionaryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B9FFDC571F449CA50009B6D1 /* Egyptian_DictionaryUITests.swift */,
+				B9FFDC591F449CA50009B6D1 /* Info.plist */,
+			);
+			path = "Egyptian DictionaryUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9FFDC2F1F449CA50009B6D1 /* Egyptian Dictionary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9FFDC5C1F449CA50009B6D1 /* Build configuration list for PBXNativeTarget "Egyptian Dictionary" */;
+			buildPhases = (
+				B9FFDC2C1F449CA50009B6D1 /* Sources */,
+				B9FFDC2D1F449CA50009B6D1 /* Frameworks */,
+				B9FFDC2E1F449CA50009B6D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Egyptian Dictionary";
+			productName = "Egyptian Dictionary";
+			productReference = B9FFDC301F449CA50009B6D1 /* Egyptian Dictionary.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B9FFDC471F449CA50009B6D1 /* Egyptian DictionaryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9FFDC5F1F449CA50009B6D1 /* Build configuration list for PBXNativeTarget "Egyptian DictionaryTests" */;
+			buildPhases = (
+				B9FFDC441F449CA50009B6D1 /* Sources */,
+				B9FFDC451F449CA50009B6D1 /* Frameworks */,
+				B9FFDC461F449CA50009B6D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9FFDC4A1F449CA50009B6D1 /* PBXTargetDependency */,
+			);
+			name = "Egyptian DictionaryTests";
+			productName = "Egyptian DictionaryTests";
+			productReference = B9FFDC481F449CA50009B6D1 /* Egyptian DictionaryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B9FFDC521F449CA50009B6D1 /* Egyptian DictionaryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9FFDC621F449CA50009B6D1 /* Build configuration list for PBXNativeTarget "Egyptian DictionaryUITests" */;
+			buildPhases = (
+				B9FFDC4F1F449CA50009B6D1 /* Sources */,
+				B9FFDC501F449CA50009B6D1 /* Frameworks */,
+				B9FFDC511F449CA50009B6D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9FFDC551F449CA50009B6D1 /* PBXTargetDependency */,
+			);
+			name = "Egyptian DictionaryUITests";
+			productName = "Egyptian DictionaryUITests";
+			productReference = B9FFDC531F449CA50009B6D1 /* Egyptian DictionaryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9FFDC281F449CA50009B6D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = AShvedov;
+				TargetAttributes = {
+					B9FFDC2F1F449CA50009B6D1 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = DADD4X5795;
+						ProvisioningStyle = Automatic;
+					};
+					B9FFDC471F449CA50009B6D1 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = DADD4X5795;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B9FFDC2F1F449CA50009B6D1;
+					};
+					B9FFDC521F449CA50009B6D1 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = DADD4X5795;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B9FFDC2F1F449CA50009B6D1;
+					};
+				};
+			};
+			buildConfigurationList = B9FFDC2B1F449CA50009B6D1 /* Build configuration list for PBXProject "Egyptian Dictionary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B9FFDC271F449CA40009B6D1;
+			productRefGroup = B9FFDC311F449CA50009B6D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9FFDC2F1F449CA50009B6D1 /* Egyptian Dictionary */,
+				B9FFDC471F449CA50009B6D1 /* Egyptian DictionaryTests */,
+				B9FFDC521F449CA50009B6D1 /* Egyptian DictionaryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9FFDC2E1F449CA50009B6D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9FFDC421F449CA50009B6D1 /* LaunchScreen.storyboard in Resources */,
+				B9FFDC3F1F449CA50009B6D1 /* Assets.xcassets in Resources */,
+				B9FFDC3D1F449CA50009B6D1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9FFDC461F449CA50009B6D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9FFDC511F449CA50009B6D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9FFDC2C1F449CA50009B6D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9FFDC361F449CA50009B6D1 /* RootViewController.swift in Sources */,
+				B9FFDC3A1F449CA50009B6D1 /* ModelController.swift in Sources */,
+				B9FFDC381F449CA50009B6D1 /* DataViewController.swift in Sources */,
+				B9FFDC341F449CA50009B6D1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9FFDC441F449CA50009B6D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9FFDC4D1F449CA50009B6D1 /* Egyptian_DictionaryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9FFDC4F1F449CA50009B6D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9FFDC581F449CA50009B6D1 /* Egyptian_DictionaryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B9FFDC4A1F449CA50009B6D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9FFDC2F1F449CA50009B6D1 /* Egyptian Dictionary */;
+			targetProxy = B9FFDC491F449CA50009B6D1 /* PBXContainerItemProxy */;
+		};
+		B9FFDC551F449CA50009B6D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9FFDC2F1F449CA50009B6D1 /* Egyptian Dictionary */;
+			targetProxy = B9FFDC541F449CA50009B6D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B9FFDC3B1F449CA50009B6D1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9FFDC3C1F449CA50009B6D1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B9FFDC401F449CA50009B6D1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9FFDC411F449CA50009B6D1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B9FFDC5A1F449CA50009B6D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B9FFDC5B1F449CA50009B6D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9FFDC5D1F449CA50009B6D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DADD4X5795;
+				INFOPLIST_FILE = "Egyptian Dictionary/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ashvedov.Egyptian-Dictionary";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B9FFDC5E1F449CA50009B6D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DADD4X5795;
+				INFOPLIST_FILE = "Egyptian Dictionary/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ashvedov.Egyptian-Dictionary";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		B9FFDC601F449CA50009B6D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = DADD4X5795;
+				INFOPLIST_FILE = "Egyptian DictionaryTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ashvedov.Egyptian-DictionaryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Egyptian Dictionary.app/Egyptian Dictionary";
+			};
+			name = Debug;
+		};
+		B9FFDC611F449CA50009B6D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = DADD4X5795;
+				INFOPLIST_FILE = "Egyptian DictionaryTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ashvedov.Egyptian-DictionaryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Egyptian Dictionary.app/Egyptian Dictionary";
+			};
+			name = Release;
+		};
+		B9FFDC631F449CA50009B6D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = DADD4X5795;
+				INFOPLIST_FILE = "Egyptian DictionaryUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ashvedov.Egyptian-DictionaryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Egyptian Dictionary";
+			};
+			name = Debug;
+		};
+		B9FFDC641F449CA50009B6D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = DADD4X5795;
+				INFOPLIST_FILE = "Egyptian DictionaryUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ashvedov.Egyptian-DictionaryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Egyptian Dictionary";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9FFDC2B1F449CA50009B6D1 /* Build configuration list for PBXProject "Egyptian Dictionary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9FFDC5A1F449CA50009B6D1 /* Debug */,
+				B9FFDC5B1F449CA50009B6D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9FFDC5C1F449CA50009B6D1 /* Build configuration list for PBXNativeTarget "Egyptian Dictionary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9FFDC5D1F449CA50009B6D1 /* Debug */,
+				B9FFDC5E1F449CA50009B6D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B9FFDC5F1F449CA50009B6D1 /* Build configuration list for PBXNativeTarget "Egyptian DictionaryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9FFDC601F449CA50009B6D1 /* Debug */,
+				B9FFDC611F449CA50009B6D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B9FFDC621F449CA50009B6D1 /* Build configuration list for PBXNativeTarget "Egyptian DictionaryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9FFDC631F449CA50009B6D1 /* Debug */,
+				B9FFDC641F449CA50009B6D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9FFDC281F449CA50009B6D1 /* Project object */;
+}
