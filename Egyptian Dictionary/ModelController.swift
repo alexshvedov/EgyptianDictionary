@@ -18,16 +18,25 @@ import UIKit
  */
 
 
-class ModelController: NSObject, UIPageViewControllerDataSource {
-
-    var pageData: [String] = []
+class ModelController: NSObject, UIPageViewControllerDataSource{
+    
+    //var pageData: [String] = []
+    var pageData: [NSDictionary] = []
 
 
     override init() {
         super.init()
         // Create the data model.
-        let dateFormatter = DateFormatter()
-        pageData = dateFormatter.monthSymbols
+        //let dateFormatter = DateFormatter()
+        //pageData = dateFormatter.monthSymbols
+        /*for i in 0...7 {
+            pageData.append("A\(i+1)")
+        }*/
+    }
+    init(jsonData data: [NSDictionary]) {
+        super.init()
+        
+        pageData = data 
     }
 
     func viewControllerAtIndex(_ index: Int, storyboard: UIStoryboard) -> DataViewController? {
@@ -39,6 +48,7 @@ class ModelController: NSObject, UIPageViewControllerDataSource {
         // Create a new view controller and pass suitable data.
         let dataViewController = storyboard.instantiateViewController(withIdentifier: "DataViewController") as! DataViewController
         dataViewController.dataObject = self.pageData[index]
+        
         return dataViewController
     }
 
@@ -72,6 +82,17 @@ class ModelController: NSObject, UIPageViewControllerDataSource {
         }
         return self.viewControllerAtIndex(index, storyboard: viewController.storyboard!)
     }
-
+    
+    func shuffle() {
+        //print("ModelController shuffle()")
+        if self.pageData.count > 1 {
+            for i in 0..<(self.pageData.count - 1) {
+                let j = Int(arc4random_uniform(UInt32(self.pageData.count - i))) + i
+                if (i != j) {
+                    swap(&self.pageData[i], &self.pageData[j])
+                }
+            }
+        }
+    }
 }
 

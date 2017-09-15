@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		58C42F28288C0498D7D419AA /* Pods_Egyptian_DictionaryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB891FADB5B09957EB5C7B9D /* Pods_Egyptian_DictionaryTests.framework */; };
+		B153B47C55C4D113DA87E2ED /* Pods_Egyptian_DictionaryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB874B8B29932FF0DC0B68DD /* Pods_Egyptian_DictionaryUITests.framework */; };
+		B913AAAD1F57175E00BAB48F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B913AAAC1F57175E00BAB48F /* GoogleService-Info.plist */; };
 		B9FFDC341F449CA50009B6D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FFDC331F449CA50009B6D1 /* AppDelegate.swift */; };
 		B9FFDC361F449CA50009B6D1 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FFDC351F449CA50009B6D1 /* RootViewController.swift */; };
 		B9FFDC381F449CA50009B6D1 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FFDC371F449CA50009B6D1 /* DataViewController.swift */; };
@@ -16,6 +19,7 @@
 		B9FFDC421F449CA50009B6D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9FFDC401F449CA50009B6D1 /* LaunchScreen.storyboard */; };
 		B9FFDC4D1F449CA50009B6D1 /* Egyptian_DictionaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FFDC4C1F449CA50009B6D1 /* Egyptian_DictionaryTests.swift */; };
 		B9FFDC581F449CA50009B6D1 /* Egyptian_DictionaryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FFDC571F449CA50009B6D1 /* Egyptian_DictionaryUITests.swift */; };
+		BEC45E3678135F72107530DD /* Pods_Egyptian_Dictionary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 596C40F3A2C69EA5D5214BE0 /* Pods_Egyptian_Dictionary.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C1769C2BC3177B5A8B52F40 /* Pods-Egyptian DictionaryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Egyptian DictionaryUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Egyptian DictionaryUITests/Pods-Egyptian DictionaryUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		15620331E48CF69D0A6A92CC /* Pods-Egyptian Dictionary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Egyptian Dictionary.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Egyptian Dictionary/Pods-Egyptian Dictionary.debug.xcconfig"; sourceTree = "<group>"; };
+		21D70C6579F6A6C72BC5D144 /* Pods-Egyptian DictionaryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Egyptian DictionaryUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Egyptian DictionaryUITests/Pods-Egyptian DictionaryUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2AB7A5A6708932369D0177D6 /* Pods-Egyptian Dictionary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Egyptian Dictionary.release.xcconfig"; path = "Pods/Target Support Files/Pods-Egyptian Dictionary/Pods-Egyptian Dictionary.release.xcconfig"; sourceTree = "<group>"; };
+		596C40F3A2C69EA5D5214BE0 /* Pods_Egyptian_Dictionary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Egyptian_Dictionary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B250565FD397750A4836FCC7 /* Pods-Egyptian DictionaryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Egyptian DictionaryTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Egyptian DictionaryTests/Pods-Egyptian DictionaryTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B913AAAC1F57175E00BAB48F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B9FFDC301F449CA50009B6D1 /* Egyptian Dictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Egyptian Dictionary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9FFDC331F449CA50009B6D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B9FFDC351F449CA50009B6D1 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +62,9 @@
 		B9FFDC531F449CA50009B6D1 /* Egyptian DictionaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Egyptian DictionaryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9FFDC571F449CA50009B6D1 /* Egyptian_DictionaryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Egyptian_DictionaryUITests.swift; sourceTree = "<group>"; };
 		B9FFDC591F449CA50009B6D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E55B0EF8ABC6A04CB4771A08 /* Pods-Egyptian DictionaryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Egyptian DictionaryTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Egyptian DictionaryTests/Pods-Egyptian DictionaryTests.release.xcconfig"; sourceTree = "<group>"; };
+		EB874B8B29932FF0DC0B68DD /* Pods_Egyptian_DictionaryUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Egyptian_DictionaryUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB891FADB5B09957EB5C7B9D /* Pods_Egyptian_DictionaryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Egyptian_DictionaryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEC45E3678135F72107530DD /* Pods_Egyptian_Dictionary.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58C42F28288C0498D7D419AA /* Pods_Egyptian_DictionaryTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +88,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B153B47C55C4D113DA87E2ED /* Pods_Egyptian_DictionaryUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C905FCA5667658D2680AA13 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15620331E48CF69D0A6A92CC /* Pods-Egyptian Dictionary.debug.xcconfig */,
+				2AB7A5A6708932369D0177D6 /* Pods-Egyptian Dictionary.release.xcconfig */,
+				B250565FD397750A4836FCC7 /* Pods-Egyptian DictionaryTests.debug.xcconfig */,
+				E55B0EF8ABC6A04CB4771A08 /* Pods-Egyptian DictionaryTests.release.xcconfig */,
+				0C1769C2BC3177B5A8B52F40 /* Pods-Egyptian DictionaryUITests.debug.xcconfig */,
+				21D70C6579F6A6C72BC5D144 /* Pods-Egyptian DictionaryUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		26656A45BC514D6D2A8B93B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				596C40F3A2C69EA5D5214BE0 /* Pods_Egyptian_Dictionary.framework */,
+				FB891FADB5B09957EB5C7B9D /* Pods_Egyptian_DictionaryTests.framework */,
+				EB874B8B29932FF0DC0B68DD /* Pods_Egyptian_DictionaryUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B9FFDC271F449CA40009B6D1 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +125,8 @@
 				B9FFDC4B1F449CA50009B6D1 /* Egyptian DictionaryTests */,
 				B9FFDC561F449CA50009B6D1 /* Egyptian DictionaryUITests */,
 				B9FFDC311F449CA50009B6D1 /* Products */,
+				0C905FCA5667658D2680AA13 /* Pods */,
+				26656A45BC514D6D2A8B93B1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,6 +151,7 @@
 				B9FFDC3E1F449CA50009B6D1 /* Assets.xcassets */,
 				B9FFDC401F449CA50009B6D1 /* LaunchScreen.storyboard */,
 				B9FFDC431F449CA50009B6D1 /* Info.plist */,
+				B913AAAC1F57175E00BAB48F /* GoogleService-Info.plist */,
 			);
 			path = "Egyptian Dictionary";
 			sourceTree = "<group>";
@@ -138,9 +181,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B9FFDC5C1F449CA50009B6D1 /* Build configuration list for PBXNativeTarget "Egyptian Dictionary" */;
 			buildPhases = (
+				B145B24882C8DA2C890D1EEA /* [CP] Check Pods Manifest.lock */,
 				B9FFDC2C1F449CA50009B6D1 /* Sources */,
 				B9FFDC2D1F449CA50009B6D1 /* Frameworks */,
 				B9FFDC2E1F449CA50009B6D1 /* Resources */,
+				F104BA68DBAF05B1A45B2296 /* [CP] Embed Pods Frameworks */,
+				C2357E00B17966A031F579A3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -155,9 +201,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B9FFDC5F1F449CA50009B6D1 /* Build configuration list for PBXNativeTarget "Egyptian DictionaryTests" */;
 			buildPhases = (
+				E6F6821099C3FCCF6CA6C713 /* [CP] Check Pods Manifest.lock */,
 				B9FFDC441F449CA50009B6D1 /* Sources */,
 				B9FFDC451F449CA50009B6D1 /* Frameworks */,
 				B9FFDC461F449CA50009B6D1 /* Resources */,
+				0CCFC27DD66E33788FBE51CE /* [CP] Embed Pods Frameworks */,
+				5A6F35D612E0CD17D8D14158 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -173,9 +222,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B9FFDC621F449CA50009B6D1 /* Build configuration list for PBXNativeTarget "Egyptian DictionaryUITests" */;
 			buildPhases = (
+				3E15C338ED544CDD5EBB29A3 /* [CP] Check Pods Manifest.lock */,
 				B9FFDC4F1F449CA50009B6D1 /* Sources */,
 				B9FFDC501F449CA50009B6D1 /* Frameworks */,
 				B9FFDC511F449CA50009B6D1 /* Resources */,
+				F74E18B4A9985DFC99F5ECA4 /* [CP] Embed Pods Frameworks */,
+				E915E5216DA2841BE07858D9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -242,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9FFDC421F449CA50009B6D1 /* LaunchScreen.storyboard in Resources */,
+				B913AAAD1F57175E00BAB48F /* GoogleService-Info.plist in Resources */,
 				B9FFDC3F1F449CA50009B6D1 /* Assets.xcassets in Resources */,
 				B9FFDC3D1F449CA50009B6D1 /* Main.storyboard in Resources */,
 			);
@@ -262,6 +315,162 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0CCFC27DD66E33788FBE51CE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Egyptian DictionaryTests/Pods-Egyptian DictionaryTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E15C338ED544CDD5EBB29A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Egyptian DictionaryUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A6F35D612E0CD17D8D14158 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Egyptian DictionaryTests/Pods-Egyptian DictionaryTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B145B24882C8DA2C890D1EEA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Egyptian Dictionary-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2357E00B17966A031F579A3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Egyptian Dictionary/Pods-Egyptian Dictionary-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6F6821099C3FCCF6CA6C713 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Egyptian DictionaryTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E915E5216DA2841BE07858D9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Egyptian DictionaryUITests/Pods-Egyptian DictionaryUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F104BA68DBAF05B1A45B2296 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Egyptian Dictionary/Pods-Egyptian Dictionary-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Egyptian Dictionary/Pods-Egyptian Dictionary-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F74E18B4A9985DFC99F5ECA4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Egyptian DictionaryUITests/Pods-Egyptian DictionaryUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B9FFDC2C1F449CA50009B6D1 /* Sources */ = {
@@ -367,7 +576,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -411,7 +620,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -421,12 +630,13 @@
 		};
 		B9FFDC5D1F449CA50009B6D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15620331E48CF69D0A6A92CC /* Pods-Egyptian Dictionary.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = DADD4X5795;
 				INFOPLIST_FILE = "Egyptian Dictionary/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ashvedov.Egyptian-Dictionary";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashvedov.EgyptianDictionary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -434,12 +644,13 @@
 		};
 		B9FFDC5E1F449CA50009B6D1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AB7A5A6708932369D0177D6 /* Pods-Egyptian Dictionary.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = DADD4X5795;
 				INFOPLIST_FILE = "Egyptian Dictionary/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ashvedov.Egyptian-Dictionary";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashvedov.EgyptianDictionary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -447,6 +658,7 @@
 		};
 		B9FFDC601F449CA50009B6D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B250565FD397750A4836FCC7 /* Pods-Egyptian DictionaryTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -462,6 +674,7 @@
 		};
 		B9FFDC611F449CA50009B6D1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E55B0EF8ABC6A04CB4771A08 /* Pods-Egyptian DictionaryTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -477,6 +690,7 @@
 		};
 		B9FFDC631F449CA50009B6D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C1769C2BC3177B5A8B52F40 /* Pods-Egyptian DictionaryUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = DADD4X5795;
@@ -491,6 +705,7 @@
 		};
 		B9FFDC641F449CA50009B6D1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21D70C6579F6A6C72BC5D144 /* Pods-Egyptian DictionaryUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = DADD4X5795;
@@ -522,6 +737,7 @@
 				B9FFDC5E1F449CA50009B6D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B9FFDC5F1F449CA50009B6D1 /* Build configuration list for PBXNativeTarget "Egyptian DictionaryTests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +746,7 @@
 				B9FFDC611F449CA50009B6D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B9FFDC621F449CA50009B6D1 /* Build configuration list for PBXNativeTarget "Egyptian DictionaryUITests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +755,7 @@
 				B9FFDC641F449CA50009B6D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
